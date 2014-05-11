@@ -45,7 +45,7 @@ class RestaurantSearcher
   def next_candidate
     @candidates.empty? ? nil : @candidates.sample
   end
-  private :next_candidate
+  # private :next_candidate
 
   def next_candidate_name
     candidate = next_candidate

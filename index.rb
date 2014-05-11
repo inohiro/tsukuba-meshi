@@ -1,3 +1,5 @@
+require 'pp'
+
 require 'sinatra'
 require File.expand_path( 'lib/restaurant_searcher.rb' )
 
@@ -7,6 +9,7 @@ end
 
 get '/' do
   load unless @searcher
-  @searcher.next_candidate_name
+  @searcher.next_candidate.to_s
+  # @searcher.next_candidate_name
 end
 
