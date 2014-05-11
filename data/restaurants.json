@@ -1,0 +1,10 @@
+[
+    { "name": "RanRan",
+      "open": { "from": "18:00", "to": "23:30" },
+      "close": [ "Saturday", "Sunday" ]
+    },
+    { "name": "Yahoo",
+      "open": { "from": "17:00", "to": "22:00" },
+      "close": []
+    }
+]
